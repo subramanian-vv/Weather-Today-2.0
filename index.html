@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div id="bgimg">
+        <h1> TODAY'S WEATHER </h1>
+        <div class="input">
+            <input type="text" id="city" placeholder="Enter a city" required>
+        </div>
+        
+        <div id="info" class="info hide">
+            <div class="city"> <span id="city-name"> </span> </div>
+            <div class="city"> <i class="fas" id="weather-icon"></i> <span id="city-weather">  </span> </div>
+            <div class="city"> <i class="fas" id="temp-icon"></i> <span id="city-temp">  </span> </div>
+        </div>
+        <canvas id="canvas-cloud"></canvas>
+        <canvas id="canvas-rain"></canvas>
+        <canvas id="canvas-sun"></canvas>
+        <canvas id="canvas-haze"></canvas>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

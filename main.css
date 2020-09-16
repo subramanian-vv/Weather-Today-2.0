@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: aliceblue;
+}
+  
+h1 {
+  margin-block-start: 0;
+  font-family: 'Lato';
+  margin-left: -5%;
+  font-size: 3em;
+  color: maroon;
+}
+
+#bgimg {
+  text-align: center;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.input {
+  text-align: center;
+}
+
+input {
+  font-size: 2em;
+  margin-top: 4px;
+  border-radius: 2px;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.info {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.info > div {
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.hide {
+  display: none;
+}
+
+span {
+  color: crimson;
+  font-size: 2em;
+}
+
+i {
+  font-size: 2em;
+  color: darkblue;
+}
+
+.city {
+  margin-bottom: 2%;
+}
+
+canvas {
+  display: none;
+}
