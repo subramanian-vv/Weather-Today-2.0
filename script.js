@@ -152,8 +152,8 @@ function drawDrop(x, y, xr, yr) {
             ctxRain.fill();
             ctxRain.strokeStyle = 'gray';
             ctxRain.stroke();
-            tempx-=20;
-            tempy+=20;
+            tempx -= 20;
+            tempy += 20;
         }
         xr+=100;
     }
